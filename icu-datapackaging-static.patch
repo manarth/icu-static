@@ -1,0 +1,13 @@
+diff --git a/main/icu/APKBUILD b/main/icu/APKBUILD
+index eeae0c066c..bfafc41ad4 100644
+--- a/main/icu/APKBUILD
++++ b/main/icu/APKBUILD
+@@ -64,7 +64,7 @@ build() {
+ 		--host=$CHOST \
+ 		--prefix=/usr \
+ 		--sysconfdir=/etc \
+-		--with-data-packaging=archive \
++		--with-data-packaging=static \
+ 		--disable-samples \
+ 		--enable-static \
+ 		--mandir=/usr/share/man
